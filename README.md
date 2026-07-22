@@ -5,30 +5,25 @@ cd joyboy-flow
 
 2. Create and activate a virtual environment
 
-bash
-
+####In bash
 python -m venv venv
 # On Windows
 venv\Scripts\activate
-
 3. Install dependencies
 
-bash
-
+####In bash
 pip install -r requirements.txt
 
 4. Configure Environment
 
-bash
-
+####In bash
 # Copy the example environment file
 # On Windows
 copy .env.example .env
 
 5. Run the application
 
-bash
-
+####In bash
 python main.py
 
 
