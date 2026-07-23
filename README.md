@@ -29,14 +29,25 @@ python main.py
 
 PROJECT STRUCTURE
 joyboy-flow/
-├── main.py                 # Application entry point
-├── config.py               # Environment & path configuration
-├── database/               # Database session & data seeding
-├── models/                 # SQLAlchemy ORM models
-├── controllers/            # UI to Service routing logic
-├── services/               # Business logic & DB queries
-├── ui/                     # PySide6 GUI components & pages
-│   ├── components/         # Reusable widgets (Sidebar, Cards)
-│   └── dialogs/            # Input forms (Employee Dialog)
-├── utils/                  # Logging, Error handling, Exporters
-└── assets/                 # Icons and static files
+├── main.py               
+# Application entry point
+├── config.py             
+# Environment & path configuration
+├── database/              
+# Database session & data seeding
+├── models/                
+# SQLAlchemy ORM models
+├── controllers/           
+# UI to Service routing logic
+├── services/              
+# Business logic & DB queries
+├── ui/                   
+# PySide6 GUI components & pages
+│   ├── components/        
+# Reusable widgets (Sidebar, Cards)
+│   └── dialogs/          
+# Input forms (Employee Dialog)
+├── utils/               
+# Logging, Error handling, Exporters
+└── assets/              
+# Icons and static files
